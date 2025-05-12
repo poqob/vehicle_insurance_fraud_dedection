@@ -1,0 +1,27 @@
+Loading predictions_results_smote.csv...
+
+Data shape: (15420, 36)
+
+Analyzing prediction results:
+Total samples: 15420
+Actual fraud cases: 923 (5.99%)
+Predicted fraud cases: 5127 (33.25%)
+
+Confusion Matrix:
+True Positives (correctly identified fraud): 650
+True Negatives (correctly identified non-fraud): 10020
+False Positives (incorrectly flagged as fraud): 4477
+False Negatives (missed fraud cases): 273
+
+Performance Metrics:
+Accuracy: 0.6920
+Precision (fraud): 0.1268
+Recall (fraud): 0.7042
+F1 Score (fraud): 0.2149
+
+High probability fraud cases (>80%): 2
+
+Sample high probability cases:
+     FraudFound_Original Predicted  Fraud_Probability
+2676                  No       Yes           0.823743
+6943                  No       Yes           0.832565
